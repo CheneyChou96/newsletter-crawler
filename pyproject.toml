@@ -1,0 +1,23 @@
+[project]
+name = "newsletter-crawler"
+version = "0.1.0"
+description = "newsletter-crawler"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aerich>=0.9.0",
+    "aiomysql>=0.2.0",
+    "apscheduler>=3.11.0",
+    "beautifulsoup4>=4.13.4",
+    "cos-python-sdk-v5>=1.9.37",
+    "fastapi>=0.115.12",
+    "loguru>=0.7.3",
+    "pydantic>=2.11.5",
+    "python-dotenv>=1.1.0",
+    "python-redis>=0.4.0",
+    "pytz>=2025.2",
+    "redis>=6.2.0",
+    "requests>=2.32.3",
+    "tortoise>=0.1.1",
+    "uvicorn>=0.34.3",
+]
